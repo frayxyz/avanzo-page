@@ -1,0 +1,11 @@
+create database avanso;
+use avanso;
+create table contacto(id int AUTO_INCREMENT,nombres varchar(50),apellidos varchar(50),correo varchar(100),telefono varchar(15), descripcion varchar(1000), primary key(id));
+
+create table blog(id int AUTO_INCREMENT,nombres varchar(50),apellidos varchar(50),correo varchar(100), texto varchar(2000), fecha datetime, primary key(id));
+
+insert into blog(nombres,apellidos,correo,texto,fecha) values('juan','ape116','juands@hotmail.com','Nada mejor que disfrutar del medio ambiente y los beneficios que nos brinda día a día. Contar con un buen ambiente hace parte importantísimo de la ecología como fuente primaria de los recursos que tenemos. Crear una cultura y una conciencia ecológica en un proceso arduo y duro, pero con persistencia y perseverancia paulatinamente se podrá ir haciendo un cambio cultural y en los hábitos de consumo, que nos lleven finalmente a la conservación de esto que es lo último y único que tenemos. Parte del trabajo para crear esa conciencia, es multiplicar pequeñas frases o tips que ayuden a la gente a tener una mayor percepción de los beneficios de la ecología.
+
+Las que te damos a continuación te darán una idea general de cómo hacerlo.
+
+:: “El verde de nuestra naturaleza debe siempre contagiarnos de esperanza, de amor y de entrega por este único mundo que tenemos.',NOW()),

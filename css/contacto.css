@@ -1,0 +1,15 @@
+.caja {
+    width: 70%;
+    margin-left: 15%;
+    height: 100px;
+}
+
+.container {
+    margin-top: 30px;
+    width: 50%;
+    border: 1px solid #36A0FF;
+}
+
+body {
+    background: #444;
+}
